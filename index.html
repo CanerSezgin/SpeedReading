@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    <title>Speed Reading</title>
+</head>
+<body>
+        <div class="main">
+            <textarea rows="25" cols="125" id="newText"> 
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis rem sequi maxime excepturi consectetur id veniam amet delectus perferendis? Quia in ut explicabo. Vero placeat aliquid fugiat reprehenderit. Quasi, quae!
+
+                ipsum dolor sit amet consectetur adipisicing elit. Repellat soluta quae tenetur pariatur optio placeat voluptatibus consequuntur sit ipsa beatae minima, fuga distinctio modi saepe vero facilis sequi totam libero.
+           
+                </textarea>
+            <div>
+                <a href="#" class="rainbow-button" alt="BEGIN" id="btn-begin"></a>
+            </div>
+
+            <div id="game-area">
+                <div id="show-area">sadasd sadsadasd</div>
+                <a href="#" class="rainbow-button" alt="READ" id="btn-read"></a> <br><br>
+               
+
+                <br>
+                <div>
+                    <button id="btn-newText">NewText</button>
+                    <button id="btn-reset">Restart (r)</button>
+                </div>
+                <br>
+                <div id="select-chunks">
+                    <p style="color: #FFF">Settings</p>
+                    <button class="chunks" id="btn-chunk-1">Single Word (q)</button>
+                    <button class="chunks" id="btn-chunk-2">Two Words (w)</button>
+                    <button class="chunks" id="btn-chunk-mixed">Mixed (1-2 Words) (e)</button>
+                    <br>
+                    <p style="color: #FFF; font-size: 0.75em;">Words Per Min
+                    <input id="input-wpm" type="number" value="150" 
+                        style="width: 40px; text-align:center;"></p>
+                </div>
+            </div>
+
+        </div>
+        <div id="footer">
+            <a class="nav-link" href="https://github.com/CanerSezgin" target="_blank">© Made with ❤ by Caner SEZGİN</a>      
+        </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
