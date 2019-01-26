@@ -1,7 +1,7 @@
 body {
   margin:0;
   background-color:#191919;
-  min-height:100vh;
+  min-height:90vh;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -55,8 +55,24 @@ input[type=number]::-webkit-outer-spin-button {
   position: absolute;
 }
 
+
+
 @media only screen and (max-width: 425px) {
+  body {
+    min-height: 70vh;
+  }
   #newText{
-    width: 350px;
+    width: 320px;
+  }
+
+  #show-area {
+    color: #FFF;
+    height: 50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:4vw;
+    font-weight:bold;
+    width: 55vw;
   }
 } 
